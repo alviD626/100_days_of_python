@@ -8,11 +8,11 @@ elif side == "left":
 
     if swim_wait == "wait":
         door = input("You arrive at the island unharmed. There is house with 3 doors.\n One red, one yellow and one blue. Which colour do you choose?\n").lower()
-        if  door == "Red":
+        if  door == "red":
             print("It's a room full of fire.\nGame Over")
-        elif door == "Blue":
+        elif door == "blue":
             print("You enter a room of beasts.\nGame Over")
-        elif  door == "Yellow":
+        elif  door == "yellow":
             print("You found the treasure! You Win!")
         else:
             print("Game Over")
